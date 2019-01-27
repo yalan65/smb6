@@ -97,7 +97,7 @@ var marker3 = L.marker(map.unproject([2000.5, 1000.5], map.getMaxZoom()),{
 // Add pop up for click
 marker.bindPopup("<b>Finish Cutting</b><br>Steel Metal");
 marker2.bindPopup("<b>PART ID:</b><br>PT243-3456-121-11<br>Near Pillar 8");
-marker3.bindPopup("<b>Dont mess with me</b>");
+marker3.bindPopup("<b>PART ID:</b><br>PT123-3456-111-22<br>Near Pillar 1</b>");
 
 marker2.on('mouseover', function (e) {
             this.openPopup();
