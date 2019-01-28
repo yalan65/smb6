@@ -46,3 +46,9 @@
 {
  padding-left: 35px;
 }
+
+tbody tr:hover {
+  color: #555555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
