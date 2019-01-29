@@ -5,7 +5,7 @@
 var map = L.map('image-map', {
   minZoom: 1,
   maxZoom: 4,
-  center: [-60, 80],
+  center: [-60, 120],
   zoom: 4,
   crs: L.CRS.Simple,
   attributionControl: false
